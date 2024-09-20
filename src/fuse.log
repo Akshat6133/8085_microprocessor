@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Ramesh/Documents/ISE/COA/main_sim_isim_beh.exe -prj C:/Users/Ramesh/Documents/ISE/COA/main_sim_beh.prj work.main_sim work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Ramesh/Documents/ISE/COA/sram.v" into library work
+Analyzing Verilog file "C:/Users/Ramesh/Documents/ISE/COA/seven_seg.v" into library work
+Analyzing Verilog file "C:/Users/Ramesh/Documents/ISE/COA/clkDiv.v" into library work
+Analyzing Verilog file "C:/Users/Ramesh/Documents/ISE/COA/main.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Ramesh/Documents/ISE/COA/main.v" Line 29: Redeclaration of ansi port clk is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Ramesh/Documents/ISE/COA/main.v" Line 30: Redeclaration of ansi port datamem_address is not allowed
+Analyzing Verilog file "C:/Users/Ramesh/Documents/ISE/COA/main_sim.v" into library work
+WARNING:HDLCompiler:1818 - "C:/Users/Ramesh/Documents/ISE/COA/main_sim.v" Line 61: Invalid size of integer constant literal
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Ramesh/Documents/ISE/COA/main.v" Line 35: Port value1 is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/Ramesh/Documents/ISE/COA/main.v" Line 33: Size mismatch in connection of port <o_data>. Formal port size is 8-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module sram
+Compiling module seven_seg
+Compiling module clkDiv
+Compiling module main
+Compiling module main_sim
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/Ramesh/Documents/ISE/COA/main_sim_isim_beh.exe
+Fuse Memory Usage: 27552 KB
+Fuse CPU Usage: 608 ms

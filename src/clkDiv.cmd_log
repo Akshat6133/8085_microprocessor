@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/Ramesh/Documents/ISE/COA/clkDiv.v -lang verilog -prj COA -o clkDiv.spl -module clkDiv -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 clkDiv.spl C:/Users/Ramesh/Documents/ISE/COA/clkDiv.sym 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Ramesh/Documents/ISE/COA/main_sim_isim_beh.exe" -prj "C:/Users/Ramesh/Documents/ISE/COA/main_sim_beh.prj" "work.main_sim" "work.glbl" 

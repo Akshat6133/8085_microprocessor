@@ -1,0 +1,6 @@
+verilog work "sram.v"
+verilog work "seven_seg.v"
+verilog work "clkDiv.v"
+verilog work "main.v"
+verilog work "main_sim.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

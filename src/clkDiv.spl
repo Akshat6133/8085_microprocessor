@@ -1,0 +1,11 @@
+[Inputs]
+clk_in
+reset
+[Outputs]
+clk_out
+=value1[7:0]=
+=value2[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel clkDiv
+

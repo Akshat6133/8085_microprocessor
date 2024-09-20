@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Dec 09 23:23:23 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "data<6>" LOCATE = SITE "P126" LEVEL 1;
+COMP "anode<0>" LOCATE = SITE "P120" LEVEL 1;
+COMP "anode<1>" LOCATE = SITE "P119" LEVEL 1;
+COMP "anode<2>" LOCATE = SITE "P118" LEVEL 1;
+COMP "anode<3>" LOCATE = SITE "P117" LEVEL 1;
+COMP "reset" LOCATE = SITE "P79" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "P140" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "P137" LEVEL 1;
+COMP "clk" LOCATE = SITE "P51" LEVEL 1;
+COMP "interrupt" LOCATE = SITE "P78" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "P134" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "P133" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "P131" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "P127" LEVEL 1;
+SCHEMATIC END;
+

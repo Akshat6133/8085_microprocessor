@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ramesh\Documents\ISE\COA\main.ncd
+OUTFILE=C:\Users\Ramesh\Documents\ISE\COA\main.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=C:\Users\Ramesh\Documents\ISE\COA
+LICENSE=WebPack
+USER_INFO=212340925_0_0_170

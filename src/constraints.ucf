@@ -1,0 +1,43 @@
+# Clock Signal
+NET "clk" LOC = "P51"; 
+
+# Seven Segment LED Display
+NET "data[6]" LOC = "P126";
+NET "data[5]" LOC = "P127";
+NET "data[4]" LOC = "P131";
+NET "data[3]" LOC = "P133";
+NET "data[2]" LOC = "P134";
+NET "data[1]" LOC = "P137";
+NET "data[0]" LOC = "P140";
+
+# Anode
+NET "anode[0]" LOC = "P120";
+NET "anode[1]" LOC = "P119";
+NET "anode[2]" LOC = "P118";
+NET "anode[3]" LOC = "P117";
+
+# datamem_address
+#NET "datamem_address[0]" LOC = "U16";
+#NET "datamem_address[1]" LOC = "E19";
+#NET "datamem_address[2]" LOC = "U19";
+#NET "datamem_address[3]" LOC = "V19";
+#NET "datamem_address[4]" LOC = "W18";
+#NET "datamem_address[5]" LOC = "U15";
+#NET "datamem_address[6]" LOC = "U14";
+#NET "datamem_address[7]" LOC = "V14";
+#
+## idata
+#NET "idata[0]" LOC = "V13";
+#NET "idata[1]" LOC = "V3";
+#NET "idata[2]" LOC = "W3";
+#NET "idata[3]" LOC = "U3";
+#NET "idata[4]" LOC = "P3";
+#NET "idata[5]" LOC = "N3";
+#NET "idata[6]" LOC = "P1";
+#NET "idata[7]" LOC = "L1";
+
+# interrupt
+NET "interrupt" LOC = "P78";
+
+# reset
+NET "reset" LOC = "P79";

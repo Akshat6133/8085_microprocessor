@@ -1,0 +1,4 @@
+verilog work "sram.v"
+verilog work "seven_seg.v"
+verilog work "clkDiv.v"
+verilog work "main.v"
